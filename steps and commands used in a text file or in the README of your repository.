@@ -1,0 +1,21 @@
+1. GitHub Repository Creation:
+- Log in to your GitHub account.
+- Initialize it with a README file.
+2. Local Folder Setup:
+- Create a new folder on your local machine.
+- Open a terminal or command prompt and navigate to the created folder.
+3. Initialize a new Git repository in your local folder.
+4. Link your local repository to the GitHub repository you created in Step 1.
+
+   ```git remote add origin <repository-url> ```
+5. Create a File:
+- Inside your local folder,create a new text file.
+- Add a simple text message.
+6. Stage the changes.
+ ```git add hello.txt```
+- Commit the changes.
+```git commit -m "Add hello.txt with a greeting"```
+7. Pushing to GitHub:
+- Push the committed changes to your GitHub repository.
+```git push -u origin main```
+
